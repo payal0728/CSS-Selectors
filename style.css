@@ -1,0 +1,89 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  width:100%;
+  background-color: rgb(255, 253, 159);
+}
+
+
+.PortfolioHeader{
+    height:90px;
+    background-color: green;
+    color:white;
+    text-align: center;
+
+}
+.PortfolioHeader h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navList{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    
+    gap:30px;
+    
+
+}
+.navLink{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+
+}
+.AboutMe{
+    margin:10px 20px;
+    line-height: 1.9;
+
+}
+.Projects{
+    margin:10px 20px;
+    line-height: 1.9;
+    
+
+}
+.ProjectInfo{
+    background-color: white;
+    border-left: 9px solid rgb(5, 92, 76);
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+}
+.ContactForm{
+    margin:10px 20px;
+    line-height: 1.9;
+
+}
+.ContactInput{
+    width:100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ContactInput input{
+    width:100%;
+    padding: 7px;
+     border:none;
+}
+.ContactInput textarea{
+    width:100%;
+    padding: 7px;
+     border:none;
+
+}
+.Footer{
+    height: 45px;
+    background-color: rgb(42, 41, 41);
+    text-align:center;
+    color:white;
+    padding-top: 15px;
+}
